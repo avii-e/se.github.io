@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    font-family: 'Kalnia', serif;
+}
+.header{
+    margin: 0px;
+    /* background-color: rgb(200, 177, 148); */
+    height: 64px;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    height:64px;
+    width:314px;
+}
+.left img{
+    /* height: 100px; */
+    width: 86px;
+    position: absolute;
+    
+}
+.left div{
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    margin-left: 89px;
+    margin-top: 15px;
+    font-family: 'Kalnia', serif;
+
+}
+.mid{
+    display: block;
+    /* border: 2px solid green; */
+    width: 38%;
+    margin: 10px auto;
+    height: 64px;
+}
+.right{
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 9px;
+    height: 64px;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 34px;
+    font-size: 12px;
+}
+.navbar li a.active{
+    text-decoration: underline;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    background-color: rgb(193, 187, 187);
+}
+.btn{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+
+}
+.btn a:hover{
+    background-color: rgb(193, 183, 183);
+}
